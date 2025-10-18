@@ -1,0 +1,73 @@
+1. Display top 5 highest salary earners in each dept.
+
+select emp_id, emp_name, dept_id, salary
+from (
+    select 
+        emp_id,
+        emp_name,
+        dept_id,
+        salary,
+        ROW_NUMBER() OVER (PARTITION BY dept_id ORDER BY salary DESC) AS rnk
+    FROM employees
+) ranked
+WHERE rnk <= 5;
+==================================================================================================================
+
+2. Write a stored function getWorkingDays which accepts joining data and returns
+the no of working days.
+
+DELIMITER $$
+
+CREATE FUNCTION getWorkingDays(joiningDate DATE)
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE totalDays INT;
+    DECLARE sundays INT;
+    
+    SET totalDays = DATEDIFF(CURDATE(), joiningDate);
+    SET sundays = FLOOR(totalDays / 7);
+    
+    RETURN totalDays - sundays;
+END $$
+
+DELIMITER ;
+
+==================================================================================================================
+3. Write a stored procedure which updates the salary of a given emp based on no
+of working days. Give differential salary rise based on no of working days.
+
+DELIMITER $$
+
+CREATE PROCEDURE updateSalaryBasedOnDays(IN p_emp_id INT)
+BEGIN
+    DECLARE v_joining DATE;
+    DECLARE v_working_days INT;
+    DECLARE v_increment DECIMAL(5,2);
+    
+    -- Get joining date of employee
+    SELECT joining_date INTO v_joining 
+    FROM employees 
+    WHERE emp_id = p_emp_id;
+
+    -- Calculate working days
+    SET v_working_days = getWorkingDays(v_joining);
+    
+    -- Determine increment percentage
+    IF v_working_days > 250 THEN
+        SET v_increment = 0.20;
+    ELSEIF v_working_days > 200 THEN
+        SET v_increment = 0.15;
+    ELSEIF v_working_days > 150 THEN
+        SET v_increment = 0.10;
+    ELSE
+        SET v_increment = 0.05;
+    END IF;
+
+    -- Update employee salary
+    UPDATE employees
+    SET salary = salary + (salary * v_increment)
+    WHERE emp_id = p_emp_id;
+END $$
+
+DELIMITER ;
