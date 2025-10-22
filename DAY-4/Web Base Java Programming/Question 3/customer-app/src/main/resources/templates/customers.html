@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Customers</title></head>
+<body>
+<h2>Customer List</h2>
+<a href="/customers/add">Add Customer</a>
+<table border="1">
+<tr><th>ID</th><th>Name</th><th>Email</th><th>Actions</th></tr>
+{{#customers}}
+<tr>
+<td>{{id}}</td>
+<td>{{name}}</td>
+<td>{{email}}</td>
+<td><a href="/customers/edit/{{id}}">Edit</a></td>
+</tr>
+{{/customers}}
+</table>
+</body>
+</html>
