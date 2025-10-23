@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|d:\\diwali assignment\\day-5\\.net technologies\\question 3\\studentmanagementsystem\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|d:\\diwali assignment\\day-5\\.net technologies\\question 3\\studentmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|d:\\diwali assignment\\day-5\\.net technologies\\question 3\\studentmanagementsystem\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|solutionrelative:models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|d:\\diwali assignment\\day-5\\.net technologies\\question 3\\studentmanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A7F458-6BC5-46A3-957B-9C5F43320F4C}|StudentManagementSystem.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:49:40.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAiwEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-21T17:43:53.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Models\\StudentContext.cs",
+              "RelativeDocumentMoniker": "Models\\StudentContext.cs",
+              "ToolTip": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Models\\StudentContext.cs",
+              "RelativeToolTip": "Models\\StudentContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:42:47.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\Diwali Assignment\\DAY-5\\.NET Technologies\\Question 3\\StudentManagementSystem\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:42:00.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
