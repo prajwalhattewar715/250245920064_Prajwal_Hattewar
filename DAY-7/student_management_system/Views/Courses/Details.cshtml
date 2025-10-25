@@ -1,0 +1,12 @@
+@model StudentManagementSystem.Models.Course
+@{
+    ViewData["Title"] = "Course Details";
+}
+<h1>Course Details</h1>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Course Name</dt>
+        <dd class="col-sm-10">@Model.CourseName</dd>
+    </dl>
+    <a class="btn btn-secondary" href="/Courses">Back to list</a>
+</div>
